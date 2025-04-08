@@ -1,0 +1,88 @@
+/* General styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #c0392b;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+/* Navigation styles */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f1c40f;
+  text-decoration: underline;
+}
+
+/* Section styles */
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 28px;
+  color: #c0392b;
+  margin-bottom: 15px;
+}
+
+section p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Gallery section */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 8px;
+}
