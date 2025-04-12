@@ -83,6 +83,6 @@ footer {
 }
 
 .gallery-item {
-  overflow: hidden;
+  overflow:  hidden;
   border-radius: 8px;
 }
