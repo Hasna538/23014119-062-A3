@@ -23,6 +23,6 @@ function validateForm(event) {
   }
 
   alert("Thank you for contacting us!");
-  document.getElementById("contact-form").reset();
+  document.getElementById("contact-form") .reset();
   return true;
 }
